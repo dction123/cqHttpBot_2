@@ -1,0 +1,6 @@
+cq码
+炸弹  [CQ:face,id=55]
+@    [CQ:at,qq=378992731]
+鲜花  [CQ:face,id=63]
+
+time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())

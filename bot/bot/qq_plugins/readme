@@ -1,0 +1,23 @@
+发送cq码
+    引入包
+    from nonebot.adapters.cqhttp.message import Message
+    cq = "[CQ:image,file=" + img_url + ",id=40000]"
+    await today.send(Message(cq))
+
+    鲜花 cq
+    [CQ:face,id=63]
+
+    取群聊天内容 使用
+    state.values()   //dict_values([{'raw_command': '炸弹', 'command': ('炸弹',)}, {'raw_command': None, 'command': None}])
+    只取消息文本内容 和cq码
+    msg = event.get_message()
+
+   正则表达式匹配数字
+   re.findall('\d+',msg)
+
+   获取qq头像 api
+   http://q1.qlogo.cn/g?b=qq&nk=10000&s=100
+
+   写二进制文件
+    with open('photo.jpg','wb') as f:
+    f.write

@@ -4,7 +4,7 @@ from nonebot.typing import T_State
 from nonebot.adapters import Bot, Event
 import httpx_demo
 
-weather = on_command("天气", rule=to_me(), priority=5)
+weather = on_command("天气", priority=5)
 
 
 @weather.handle()

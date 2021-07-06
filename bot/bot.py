@@ -27,6 +27,9 @@ driver.register_adapter("cqhttp", Bot)
 """
 
 nonebot.load_plugins("bot/plugins")
+nonebot.load_plugins("bot/qq_plugins")
+
+
 """
 加载插件目录，该目录下为各插件，以下划线开头的插件将不会被加载
 """
